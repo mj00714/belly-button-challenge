@@ -12,7 +12,7 @@ http://robdunnlab.com/projects/belly-button-biodiversity/
 
 D3 libraries were used to connect to the JSON data source. One best practice that I'm establishing from class lectures is displaying the output in the browser inspector, using ```console.log()```. This allows me to analyze the data structure before constructing the code. 
 
-After examining the data structure, the first chart was created and (later)initialized with the first sample data. Again, the d3 library is used. The data is labeled for use in later charts. 
+After examining the data structure, the first chart was created using Plotly and (later)initialized with the first sample data. Again, the d3 library is used. The data is labeled for use in later charts. 
 
 Next, the bubble chart is created and a different function is used to display the metadata. 
 

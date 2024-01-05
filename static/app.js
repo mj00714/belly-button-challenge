@@ -34,7 +34,7 @@ function buildCharts(sample) {
       let barLayout = {
         title: 'Top 10 Bacteria Cultures for Subject ID',
         margin: { t: 75, l: 150, b: 50 },
-        paper_bgcolor: 'rgba(255, 255, 255, .7)'
+        paper_bgcolor: 'rgba(255, 255, 255, .5)'
       };
   
       Plotly.newPlot("bar", barData, barLayout);
@@ -56,8 +56,8 @@ function buildCharts(sample) {
         title: 'Bacteria Cultures Per Sample',
         hovermode: 'closest',
         xaxis: { title: "OTU ID" },
-        margin: { t: 100 },
-        paper_bgcolor: 'rgba(255, 255, 255, .7)'
+        margin: { t: 75 },
+        paper_bgcolor: 'rgba(255, 255, 255, .5)'
       };
   
       Plotly.newPlot("bubble", bubbleData, bubbleLayout);
